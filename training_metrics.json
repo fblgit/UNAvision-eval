@@ -1,0 +1,56 @@
+{
+  "device": "cuda:0",
+  "precision": "fp32",
+  "model": {
+    "params": 104355,
+    "dtype": "torch.float32"
+  },
+  "training": {
+    "total_steps": 62564,
+    "best_fidelity": 97.68832012079656,
+    "step_top_fidelity": 98.52593606337905,
+    "step_top_psnr": 30.403357943796493
+  },
+  "final_eval": {
+    "eval_amalfi.jpg": {
+      "fidelity": 98.52492175996304,
+      "psnr": 30.402963227172897
+    },
+    "eval_architecture_1280.jpg": {
+      "fidelity": 95.95877304673195,
+      "psnr": 22.74036862158806
+    },
+    "eval_earth_2048.jpg": {
+      "fidelity": 98.44362232834101,
+      "psnr": 32.053470202741934
+    },
+    "eval_landscape_1920.jpg": {
+      "fidelity": 99.21338427811861,
+      "psnr": 36.16374828233987
+    },
+    "eval_mountain_4k.jpg": {
+      "fidelity": 98.97994454950094,
+      "psnr": 34.206861058931246
+    },
+    "eval_portrait_640.jpg": {
+      "fidelity": 99.41505966708064,
+      "psnr": 37.89744802663421
+    },
+    "eval_starrynight_4k.jpg": {
+      "fidelity": 93.66128295660019,
+      "psnr": 21.057753598667958
+    },
+    "eval_underwater_4k.jpg": {
+      "fidelity": 97.78728820383549,
+      "psnr": 28.953588476686384
+    },
+    "eval_vietri.jpg": {
+      "fidelity": 97.1239160746336,
+      "psnr": 25.957929417803655
+    },
+    "eval_wildlife_2560.jpg": {
+      "fidelity": 97.77500778436661,
+      "psnr": 29.135342249199255
+    }
+  }
+}
